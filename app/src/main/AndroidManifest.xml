@@ -25,6 +25,14 @@
                 <action android:name="com.ting.android.aidldemo.UserInfo" />
             </intent-filter>
         </service>
+        <service
+            android:name=".MyService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.ting.android.aidldemo.MyService"/>
+            </intent-filter>
+        </service>
     </application>
 
 </manifest>
